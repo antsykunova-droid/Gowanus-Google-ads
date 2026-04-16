@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gowanus Wharf Banners</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 40px;
+      background: #efefef;
+      font-family: Arial, sans-serif;
+    }
+
+    .page {
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .row {
+      display: flex;
+      gap: 40px;
+      margin-bottom: 50px;
+      align-items: flex-start;
+      flex-wrap: wrap;
+    }
+
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .banner-card {
+      background: transparent;
+    }
+
+    .label {
+      font-size: 14px;
+      font-weight: bold;
+      color: #444;
+      margin-bottom: 10px;
+    }
+
+    iframe {
+      border: none;
+      display: block;
+      background: white;
+    }
+
+    .small-gap {
+      gap: 20px;
+    }
+
+    .center-block {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+      justify-content: flex-start;
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- Row 1 -->
+    <div class="row">
+      <div class="banner-card">
+        <div class="label">300x600</div>
+        <iframe src="300x600/index.html" width="300" height="600"></iframe>
+      </div>
+
+      <div class="banner-card">
+        <div class="label">160x600</div>
+        <iframe src="160x600/index.html" width="160" height="600"></iframe>
+      </div>
+
+      <div class="column">
+        <div class="banner-card">
+          <div class="label">250x250</div>
+          <iframe src="250x250/index.html" width="250" height="250"></iframe>
+        </div>
+
+        <div class="banner-card">
+          <div class="label">300x250</div>
+          <iframe src="300x250/index.html" width="300" height="250"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row">
+      <div class="banner-card">
+        <div class="label">336x280</div>
+        <iframe src="336x280/index.html" width="336" height="280"></iframe>
+      </div>
+
+      <div class="column small-gap">
+        <div class="banner-card">
+          <div class="label">728x90</div>
+          <iframe src="728x90/index.html" width="728" height="90"></iframe>
+        </div>
+
+        <div class="banner-card">
+          <div class="label">468x60</div>
+          <iframe src="468x60/index.html" width="468" height="60"></iframe>
+        </div>
+
+        <div class="banner-card">
+          <div class="label">320x100</div>
+          <iframe src="320x100/index.html" width="320" height="100"></iframe>
+        </div>
+
+        <div class="banner-card">
+          <div class="label">320x50</div>
+          <iframe src="320x50/index.html" width="320" height="50"></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row">
+      <div class="banner-card">
+        <div class="label">970x250</div>
+        <iframe src="970x250/index.html" width="970" height="250"></iframe>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
